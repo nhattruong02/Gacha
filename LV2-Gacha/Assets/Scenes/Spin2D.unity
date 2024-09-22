@@ -739,7 +739,7 @@ RectTransform:
   m_GameObject: {fileID: 1439767062}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.13, y: 1.18, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 408179611}
@@ -873,9 +873,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5b8352a8b7cf1d429f75c51640d5fd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 7
+  maxSpeed: 2000
   speed: 1
-  speedDown: 0.1
+  speedDown: 7
   imgWheel: {fileID: 1083270109}
   bgResult: {fileID: 661266117}
   textUI: {fileID: 101962372}
@@ -893,6 +893,7 @@ MonoBehaviour:
   - 500k
   audio: {fileID: 1941918050}
   random: 1
+  round: 0
 --- !u!4 &1941918049
 Transform:
   m_ObjectHideFlags: 0
